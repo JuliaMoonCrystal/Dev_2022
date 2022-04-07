@@ -1,0 +1,6 @@
+MAP
+-Map é uma coleção de arrays no formato de [chave,valor]
+-pode ser iterado por um loop ,for etc.
+
+--> as chaves do map podem ser de qualquer valor(int,string,etc..)
+-->

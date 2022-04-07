@@ -3,4 +3,16 @@ MAP
 -pode ser iterado por um loop ,for etc.
 
 --> as chaves do map podem ser de qualquer valor(int,string,etc..)
--->
+-->possuem length
+-->são fáceis de iterar
+-->utilizando qunado o valor das chaves é desconhecido
+-->os valores tem o mesmo tipo
+
+SET
+-set são estruturas que armazenam apenas valore únicos
+-add, has(consultar) e delete
+
+-->possui valores únicos
+-->em vez da propriedade length,consulta-se o número de registros pela própriedade
+size
+-->não possui os filter, reduce e etc..

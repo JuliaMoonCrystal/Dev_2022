@@ -1,0 +1,45 @@
+var---> o escopo é global ou local(pode redeclarar, reatribuir e hoisting)
+let e const ---> escopo de bloco(nesse caso  só let pode ser reatribuido)
+
+js é uma lingugem dinâmica e fraca tipagem
+
+---------------------------------------------------
+string-->comumente usados em textos                |
+-os valores são declarados entre aspas ou crases   |
+- podem concatenar, length e iterabilidade         |
+---------------------------------------------------
+
+---------------------------------------------------
+numbres-->inteiros ou decimais                    |
+---------------------------------------------------
+
+---------------------------------------------------
+booleans--> true or false                         |
+---------------------------------------------------
+
+--------------------------------------------------
+arrays-->são iteraveis
+-metodos -- pop() e push() length
+--------------------------------------------------
+
+--------------------------------------------------
+objetos-->é uma estrutura do tipo chave e valor
+--exeemplo  let person={
+    name="joão",
+    age="12"
+}
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

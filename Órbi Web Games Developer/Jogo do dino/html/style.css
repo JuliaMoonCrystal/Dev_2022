@@ -5,7 +5,7 @@ body {
 .dino {
     position: absolute;
     bottom: 0;
-    background-image: url('/html/dino.png');
+    background-image: url('dino.png');
     width: 60px;
     height: 60px;
 }
@@ -15,7 +15,7 @@ body {
     width: 60px;
     height: 60px;
     bottom: 0;
-    background-image: url('/html/cactus.png');
+    background-image: url('cactus.png');
 }
 
 .game-over {
@@ -38,7 +38,7 @@ body {
 .background {
     position: absolute;
     bottom: 0px;
-    background-image: url('/html/example.png');
+    background-image: url('example.png');
     background-repeat: repeat-x;
     animation: slideright 600s infinite linear;
     -webkit-animation: slideright 600s infinite linear;

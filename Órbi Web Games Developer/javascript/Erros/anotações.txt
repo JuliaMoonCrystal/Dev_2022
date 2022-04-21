@@ -1,0 +1,5 @@
+ECMAScript Error -ocorrem em tempo de execução
+eles são compostos por mensagem,nome ,linha e call stack.
+
+DOMException
+são relacionados ao DOM

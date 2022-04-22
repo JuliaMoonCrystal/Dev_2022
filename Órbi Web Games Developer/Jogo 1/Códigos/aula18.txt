@@ -1,0 +1,78 @@
+***** estilos.css *****
+
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
+.anima4 {
+	width:44px;
+	height:51px;
+	background-image:url(../imgs/amigo_explosao.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(7) infinite;
+       -moz-animation: play3 .5s steps(7) infinite;
+        -ms-animation: play3 .5s steps(7) infinite;
+         -o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-308px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+
+***** js.js *****
+
+//Inimigo2 com o amigo
+		
+if (colisao6.length>0) {
+	    
+amigoX = parseInt($("#amigo").css("left"));
+amigoY = parseInt($("#amigo").css("top"));
+explosao3(amigoX,amigoY);
+$("#amigo").remove();
+		
+reposicionaAmigo();
+		
+}
+
+
+***** js.js *****
+
+//Explosão3
+	
+function explosao3(amigoX,amigoY) {
+$("#fundoGame").append("<div id='explosao3' class='anima4'></div");
+$("#explosao3").css("top",amigoY);
+$("#explosao3").css("left",amigoX);
+var tempoExplosao3=window.setInterval(resetaExplosao3, 1000);
+function resetaExplosao3() {
+$("#explosao3").remove();
+window.clearInterval(tempoExplosao3);
+tempoExplosao3=null;
+		
+}
+
+} // Fim da função explosao3

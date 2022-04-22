@@ -1,0 +1,19 @@
+***** index.html ****
+
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+
+
+***** js.js *****
+
+colisao();
+
+
+***** js.js *****
+
+function colisao() {
+	var colisao1 = ($("#jogador").collision($("#inimigo1")));
+	// jogador com o inimigo1
+
+	console.log(colisao1);
+
+} //Fim da função colisao()

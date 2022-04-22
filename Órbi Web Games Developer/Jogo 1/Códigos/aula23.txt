@@ -1,0 +1,48 @@
+***** js.js *****
+
+//Função GAME OVER
+	function gameOver() {
+	fimdejogo=true;
+	musica.pause();
+	somGameover.play();
+	
+	window.clearInterval(jogo.timer);
+	jogo.timer=null;
+	
+	$("#jogador").remove();
+	$("#inimigo1").remove();
+	$("#inimigo2").remove();
+	$("#amigo").remove();
+	
+	$("#fundoGame").append("<div id='fim'></div>");
+	
+	$("#fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
+	} // Fim da função gameOver();
+
+
+
+***** js.js *****
+
+gameOver();
+
+
+***** estilos.css *****
+
+h3 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#603A03;
+
+}
+
+#fim {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    	margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}

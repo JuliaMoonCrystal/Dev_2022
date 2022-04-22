@@ -1,0 +1,42 @@
+***** index.html *****
+
+<!-- Sons do jogo !-->
+<audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+<audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+
+***** js.js *****
+
+var somDisparo=document.getElementById("somDisparo");
+var somExplosao=document.getElementById("somExplosao");
+var musica=document.getElementById("musica");
+var somGameover=document.getElementById("somGameover");
+var somPerdido=document.getElementById("somPerdido");
+var somResgate=document.getElementById("somResgate");
+
+
+***** js.js *****
+
+//Música em loop
+musica.addEventListener("ended", function(){ musica.currentTime = 0; musica.play(); }, false);
+musica.play();
+
+***** js.js *****
+
+somDisparo.play();
+
+***** js.js *****
+
+somResgate.play();
+
+***** js.js *****
+
+somExplosao.play();
+
+***** js.js *****
+
+somPerdido.play();

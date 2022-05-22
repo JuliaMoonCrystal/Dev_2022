@@ -1,0 +1,16 @@
+{
+  "name": "projecto-react",
+  "version": "1.0.0",
+  "description": "projeto do curso de react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julia Farias",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1"
+  }
+}

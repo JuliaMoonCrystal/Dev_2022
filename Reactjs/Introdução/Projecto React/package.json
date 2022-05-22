@@ -2,16 +2,18 @@
   "name": "projecto-react",
   "version": "1.0.0",
   "description": "projeto do curso de react",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "author": "Julia Farias",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.18.0",
+    "babel-loader": "^8.2.5",
     "bootstrap": "^5.2.0-beta1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

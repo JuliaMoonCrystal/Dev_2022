@@ -1,0 +1,2 @@
+link da explicação-->https://github.com/DianaMartine/nodeJs-liveCoding-DIO/
+Link da explicação node.js e jest-->https://github.com/nathyts/dio-node-jest

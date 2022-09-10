@@ -23,4 +23,4 @@
  </ol>
 
  <h1>Bootcamps</h1>
-<h2>Em cinstrução</h2>
+<h2>Em construção</h2>

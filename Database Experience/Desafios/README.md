@@ -32,6 +32,7 @@ O valor de cada peça também irá compor a OSO cliente autoriza a execução do
 A mesma equipe avalia e executa os serviços
 Os mecânicos possuem código, nome, endereço e especialidade
 Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.</p>
+<img src="https://github.com/JuliaMoonCrystal/Dev_2022/blob/main/Database%20Experience/Desafios/imagem_desafio_2.PNG?raw=true">
 
 <h1>Desafio 3</h1>
 <h2>Descrição do Desafio</h2>

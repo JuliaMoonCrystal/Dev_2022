@@ -13,6 +13,7 @@ Refine o modelo apresentado acrescentando os seguintes pontos:</p>
   <li> -Entrega – Possui status e código de rastreio </li>
  </ol>
  <br>
+ <img src="https://github.com/JuliaMoonCrystal/Dev_2022/blob/main/Database%20Experience/Desafios/imagem_desafio_1.PNG?raw=true">
  
 <h1>Desafio 2</h1>
 <h2>Descrição do Desafio</h2>

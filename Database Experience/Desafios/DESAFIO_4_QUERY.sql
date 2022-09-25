@@ -1,0 +1,59 @@
+CREATE DATABASE Desafio_4
+USE Desafio_4
+
+CREATE TABLE Clientes(
+id_cliente INT NOT NULL PRIMARY KEY,
+nome VARCHAR(240) NOT NULL,
+endereco VARCHAR(240) NOT NULL
+)
+
+SELECT * FROM Clientes
+--DROP TABLE Clientes
+
+CREATE TABLE equipe(
+id INT NOT NULL PRIMARY KEY,
+nome_equipe VARCHAR(250) NOT NULL,
+)
+
+SELECT * FROM equipe
+
+CREATE TABLE mecanicos(
+codigo INT NOT NULL PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+endereco VARCHAR(250) NOT NULL,
+especialidade VARCHAR(250) NOT NULL,
+id_equipe INT NOT NULL FOREIGN KEY REFERENCES equipe(id),
+)
+
+SELECT * FROM mecanicos
+
+CREATE TABLE veiculos(
+idVeiculo INT NOT NULL PRIMARY KEY,
+modelo VARCHAR(50) NOT NULL,
+id_cliente INT NOT NULL FOREIGN KEY REFERENCES Clientes(id_cliente),
+id_equipe INT NOT NULL FOREIGN KEY REFERENCES equipe(id)
+)
+
+SELECT * FROM veiculos
+
+CREATE TABLE OS(
+id INT NOT NULL PRIMARY KEY,
+numero INT NOT NULL,
+data_emissao DATE NOT NULL,
+valor DECIMAL(7,2) NOT NULL,
+status_os VARCHAR(100) NOT NULL,
+data_entrega DATE NOT NULL,
+id_equipe INT NOT NULL FOREIGN KEY REFERENCES equipe(id)
+)
+
+SELECT * FROM OS
+
+CREATE TABLE mao_de_obra(
+id INT NOT NULL PRIMARY KEY,
+tipo_servico VARCHAR(50) NOT NULL,
+valor DECIMAL(7,2) NOT NULL ,
+id_ordem INT FOREIGN KEY REFERENCES OS(id)
+)
+
+SELECT * FROM mao_de_obra
+

@@ -1,0 +1,13 @@
+Anotações NOSQL X SQL
+•	SQL
+SQL significa linguagem de consulta estruturada e trata-se de uma linguagem de consulta em bancos de dados relacionais.
+Os bancos de dados relacionais têm como vantagem o suporte teórico consolidados, são altamente estruturados, os dados são facilmente armazenados e recuperados.
+As desvantagens de um banco de dados relacional é que eles têm um grande custo, por causa da criação e manutenção do sistema,
+possui limites de campos e pode gerar bancos de dados isolados.
+
+•	NOSQL
+Em conta partida NOSQL é um termo utilizado para se referir ao banco de dados não relacional de alto desempenho,
+ele foi criado para ter uma performasse melhor e uma escalabilidade horizontal.
+Como desvantagem em bancos de dados não relacionais como o Mongo, não há junções como em bancos de dados relacionais.
+Isso significa que ser preciso executar várias consultas e unir os dados manualmente.
+

@@ -7,7 +7,7 @@ Assim como demonstrado durante o desafio, realize a criação do Script SQL para
  realize a persistência de dados para realização de testes. Especifique ainda queries mais complexas dos que apresentadas durante a explicação do desafio.
  Sendo assim, crie queries SQL com as cláusulas abaixo:
 
-Recuperações simples com SELECT Statement
+Recuperações simples com SELECT Statement-
 Filtros com WHERE Statement
 Crie expressões para gerar atributos derivados
 Defina ordenações dos dados com ORDER BY

@@ -81,7 +81,7 @@ id_produto INT NOT NULL FOREIGN KEY REFERENCES produto(id),
 )
 
 SELECT * FROM fornecedor_fornece_n_produtos
-DROP TABLE fornecedor_fornece_n_produtos
+--DROP TABLE fornecedor_fornece_n_produtos
 
 CREATE TABLE pedido(
 idPedido INT NOT NULL PRIMARY KEY,
@@ -104,6 +104,10 @@ SELECT * FROM relacao_de_produto
 
 INSERT INTO Clientes(id_cliente,nome,identificacao,endereco)
 VALUES(
- 1,'ROBERTO','CLIENTE','RUA. ALMEIDA'
-
+ 1,'ROBERTO','CLIENTE','RUA. ALMEIDA',
+ 2,'ROBERTO','CLIENTE','RUA. ALMEIDA',
+ 3,'ROBERTO','CLIENTE','RUA. ALMEIDA',
+ 4,'ROBERTO','CLIENTE','RUA. ALMEIDA',
+ 5,'ROBERTO','CLIENTE','RUA. ALMEIDA',
+ 6,'ROBERTO','CLIENTE','RUA. ALMEIDA'
 )
